@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5de0e4fa</color>
+    <color name="colorPrimaryDark">#80000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#616161</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorOffWhite">#eae4e4</color>
+    <color name="glide_slider_indicator_color">#FFFFFF</color>
+    <color name="button_pressed">#c3e8ef</color>
+    <color name="button_focused">#e2741a</color>
+    <color name="button_default">#F4B183  </color>
+</resources>

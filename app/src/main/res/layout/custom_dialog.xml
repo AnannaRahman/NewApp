@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+   >
+
+    <ImageView
+        android:padding="4dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_cross"
+        android:background="@color/transparent"
+        android:layout_gravity="end"
+        android:src="@drawable/btn_event_close"
+        android:scaleType="fitXY" />
+
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical" >
+
+        <TextView
+
+
+            android:id="@+id/txt_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Set Your Location "
+            android:textColor="#cc222222"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="20dp"
+                android:visibility="invisible"
+                android:orientation="vertical"
+                android:gravity="right"
+
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/address_ic_around"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:text="Search on Map"
+
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:paddingRight="20dp"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_byMapNo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/address_ic_around"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:text="Search on"
+
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_byMapYes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/address_ic_map"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="add on Map"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:paddingRight="20dp"
+                android:orientation="vertical"
+                android:gravity="right"
+
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/address_ic_around"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:text="Search on Map"
+
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SharpPay</string>
+    <string name="text_home">홈</string>
+    <string name="text_recomandation">추천</string>
+    <string name="text_payment">결제</string>
+    <string name="text_reservation">예약</string>
+    <string name="text_profile">MY 윤곽</string>
+    <string name="action_map">Share</string>
+    <string name="action_search">Search</string>
+    <string name="mounting_name">AAAAA Mounting</string>
+    <string name="action_spinnerText">add your location</string>
+    <string name="item_details">Footer Footer :: when set windowTranslucentStatus true, /n
+        system will add translucent gray shade above of status /n
+        bar,this is standard style of</string>
+    <string name="treatment">Press and hold the image for 1 second</string>
+    <string name="payment_online">온라인 지불</string>
+    <string name="payment_qr">현장결제</string>
+    <string name="list_title">추천 상점</string>
+</resources>
